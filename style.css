@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pikachu, 
+.charmander,
+.bulbasaur,
+.squirtle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+    padding: 40px 20px 20px 20px;
+    width: 253px;
+    height: 379px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   }
+
+   .pikachu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+img {
+    width: 150px;
+} 
+
+.pikachu h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #F1C40F ;
+}
+
+.charmander h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #E74C3C;
+}
+
+.bulbasaur h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #28B463 ;
+}
+
+.squirtle h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #3498DB ;
+}
